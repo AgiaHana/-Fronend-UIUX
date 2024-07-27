@@ -14,47 +14,63 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
     />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"  rel="stylesheet" />
   </head>
   <body>
+    <!-- Navbar -->
+<nav class="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="./public/logo-kecil-1@2x.png" class="h-8" alt="" />
+    </a>
+    <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+        <li>
+          <a href="highfy-beranda-view.html" class="block py-2 px-3 text-white bg-red-700 rounded" aria-current="page">Beranda</a>
+        </li>
+        <li>
+          <a href="highfy-beranda-detail-event.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">Event</a>
+        </li>
+        <li>
+          <a href="highfy-beranda-destinasi.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">Destinasi</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">Kuliner</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">Akomodasi</a>
+        </li>
+        <li>
+          <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">
+            <img src="./public/pajamasearth.svg" class="h-[24px] w-[24px] px-[4px]" alt="">
+            Indonesia <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+          </svg></button>
+          <!-- Dropdown menu -->
+          <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+              <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">English</a>
+                </li>
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">China</a>
+                </li>
+              </ul>
+          </div>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+
     <div class="highfy-beranda-berita">
       <section class="frame-parent95">
-        <header class="frame-parent96">
-          <div class="logo-kecil-1-wrapper4">
-            <img
-              class="logo-kecil-17"
-              loading="lazy"
-              alt=""
-              src="./public/logo-kecil-1@2x.png"
-            />
-          </div>
-          <div class="navbar5">
-            <div class="button-navbar35">
-              <a class="beranda7">Beranda</a>
-            </div>
-            <div class="button-navbar36">
-              <a class="event9">Event</a>
-            </div>
-            <div class="button-navbar37">
-              <a class="destinasi7">Destinasi</a>
-            </div>
-            <div class="button-navbar38">
-              <a class="kuliner7">Kuliner</a>
-            </div>
-            <div class="button-navbar39">
-              <a class="akomodasi7">Akomodasi</a>
-            </div>
-            <div class="pajamasearth-parent4">
-              <img
-                class="pajamasearth-icon7"
-                alt=""
-                src="./public/pajamasearth.svg"
-              />
-
-              <a class="indonesia7">Indonesia</a>
-              <img class="frame-child113" alt="" src="./public/group-4.svg" />
-            </div>
-          </div>
-        </header>
         <div class="image-71-parent">
           <img class="image-71-icon" alt="" src="./public/image-71@2x.png" />
 
@@ -147,7 +163,7 @@
                   <div class="westlife-with-love-tour-2024-d-container">
                     <div class="westlife-with-love-container2">
                       <p class="westlife-with-love-tour-2024-d2">
-                        <span>WESTLIFE WITH LOVE TOUR 2024 di Jogja</span>
+                        <span><a href="highfy-beranda-detail-event.html">WESTLIFE WITH LOVE TOUR 2024 di Jogja</a></span>
                         <span class="span3"> </span>
                       </p>
                       <p class="juni-202418">(7 Juni 2024)</p>
@@ -164,8 +180,8 @@
                   </div>
                   <div class="pawai-alegoris-harmoni-jogja-2-frame">
                     <div class="pawai-alegoris-harmoni-container2">
-                      <p class="pawai-alegoris-harmoni2">
-                        Pawai Alegoris Harmoni Jogja 2024
+                      <p class="pawai-alegoris-harmoni2"><a href="highfy-beranda-detail-event.html">
+                        Pawai Alegoris Harmoni Jogja 2024</a>
                       </p>
                       <p class="juni-202419">(8 Juni 2024)</p>
                     </div>
@@ -183,7 +199,7 @@
                   </div>
                   <div class="jogja-violin-fest-5-8-juni-20-frame">
                     <div class="jogja-violin-fest-container2">
-                      <p class="jogja-violin-fest3">Jogja Violin Fest 5</p>
+                      <p class="jogja-violin-fest3"><a href="highfy-beranda-detail-event.html">Jogja Violin Fest 5</a></p>
                       <p class="juni-202420">(8 Juni 2024)</p>
                     </div>
                   </div>
@@ -198,8 +214,8 @@
                   </div>
                   <div class="ekspectanica-yogyakarta-2024-wrapper1">
                     <div class="ekspectanica-yogyakarta-2024-container2">
-                      <p class="ekspectanica-yogyakarta-20242">
-                        Ekspectanica Yogyakarta 2024
+                      <p class="ekspectanica-yogyakarta-20242"><a href="highfy-beranda-detail-event.html">
+                        Ekspectanica Yogyakarta 2024</a>
                       </p>
                       <p class="juni-202421">(8 & 9 Juni 2024)</p>
                     </div>
@@ -217,8 +233,8 @@
                   </div>
                   <div class="kerontjong-pesisiran-mataraman-wrapper1">
                     <div class="kerontjong-pesisiran-mataraman-container3">
-                      <p class="kerontjong-pesisiran-mataraman3">
-                        KERONTJONG PESISIRAN MATARAMAN
+                      <p class="kerontjong-pesisiran-mataraman3"><a href="highfy-beranda-detail-event.html">
+                        KERONTJONG PESISIRAN MATARAMAN</a>
                       </p>
                       <p class="juni-202422">(8 Juni 2024)</p>
                     </div>
@@ -234,7 +250,7 @@
                   </div>
                   <div class="artjog-2024-motif-ramalan-wrapper1">
                     <div class="artjog-2024-container2">
-                      <p class="artjog-20243">ARTJOG 2024 – Motif: Ramalan</p>
+                      <p class="artjog-20243"><a href="highfy-beranda-detail-event.html">ARTJOG 2024 – Motif: Ramalan</a></p>
                       <p class="juni-1-september-20242">
                         (28 Juni-1 September 2024)
                       </p>
@@ -253,8 +269,8 @@
                   </div>
                   <div class="petualangan-gizi-seimbang-di-m-frame">
                     <div class="petualangan-gizi-seimbang-container2">
-                      <p class="petualangan-gizi-seimbang3">
-                        Petualangan Gizi Seimbang di Museum Pisang
+                      <p class="petualangan-gizi-seimbang3"><a href="highfy-beranda-detail-event.html">
+                        Petualangan Gizi Seimbang di Museum Pisang</a>
                       </p>
                       <p class="juni-202423">(9 Juni 2024)</p>
                     </div>
@@ -270,8 +286,8 @@
                   </div>
                   <div class="geopark-night-specta-60-28-2-frame">
                     <div class="geopark-night-specta-container2">
-                      <p class="geopark-night-specta6">
-                        Geopark Night Specta 6.0
+                      <p class="geopark-night-specta6"><a href="highfy-beranda-detail-event.html">
+                        Geopark Night Specta 6.0</a>
                       </p>
                       <p class="juni-202424">(28-29 Juni 2024)</p>
                     </div>
@@ -289,8 +305,8 @@
                   </div>
                   <div class="keroncong-plesiran-vol-8-20-wrapper2">
                     <div class="keroncong-plesiran-vol-container4">
-                      <p class="keroncong-plesiran-vol5">
-                        Keroncong Plesiran Vol. 8
+                      <p class="keroncong-plesiran-vol5"><a href="highfy-beranda-detail-event.html">
+                        Keroncong Plesiran Vol. 8</a>
                       </p>
                       <p class="juli-20244">(20 Juli 2024)</p>
                     </div>
@@ -306,8 +322,8 @@
                   </div>
                   <div class="keroncong-plesiran-vol-8-20-wrapper3">
                     <div class="keroncong-plesiran-vol-container5">
-                      <p class="keroncong-plesiran-vol6">
-                        Keroncong Plesiran Vol. 8
+                      <p class="keroncong-plesiran-vol6"><a href="highfy-beranda-detail-event.html">
+                        Keroncong Plesiran Vol. 8</a>
                       </p>
                       <p class="juli-20245">(20 Juli 2024)</p>
                     </div>
@@ -318,165 +334,138 @@
           </div>
         </div>
       </section>
-      <footer class="contact-us3">
-        <div class="contact-us-child1"></div>
-        <div class="lorem-ipsum-has-been-the-indus-group">
-          <div class="lorem-ipsum-has3">
-            Lorem Ipsum has been the industry's standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
-          </div>
-          <h3 class="lorem-ipsum6">Lorem Ipsum</h3>
-          <img class="frame-child123" alt="" src="./public/vector-1.svg" />
+      <footer class="card-content-destinasi5">
+        <div class="content5">
+          <div class="center-background-parent">
+            <div class="center-background"></div>
+            <div class="image-22-parent2">
+              <img
+                class="image-22-icon8"
+                loading="lazy"
+                alt=""
+                src="./public/image-22@2x.png"
+              />
 
-          <div class="rectangle-parent38">
-            <div class="frame-child124"></div>
-            <div class="logo3">Logo</div>
-          </div>
-          <img class="frame-child125" alt="" src="./public/group-87.svg" />
+              <img
+                class="image-23-icon4"
+                loading="lazy"
+                alt=""
+                src="./public/image-23@2x.png"
+              />
 
-          <button class="rectangle-parent39">
-            <div class="frame-child126"></div>
-            <div class="lorem-ipsum7">Lorem Ipsum</div>
-          </button>
-          <div class="content9">
-            <div class="rectangle-parent40">
-              <div class="frame-child127"></div>
-              <div class="image-22-parent5">
-                <img
-                  class="image-22-icon14"
-                  loading="lazy"
-                  alt=""
-                  src="./public/image-22@2x.png"
-                />
-
-                <img
-                  class="image-23-icon7"
-                  loading="lazy"
-                  alt=""
-                  src="./public/image-23@2x.png"
-                />
-
-                <img
-                  class="image-21-icon14"
-                  loading="lazy"
-                  alt=""
-                  src="./public/image-21@2x.png"
-                />
-              </div>
-              <div class="image-20-parent5">
-                <img
-                  class="image-20-icon14"
-                  loading="lazy"
-                  alt=""
-                  src="./public/image-21@2x.png"
-                />
-
-                <img
-                  class="image-18-icon14"
-                  loading="lazy"
-                  alt=""
-                  src="./public/image-18@2x.png"
-                />
-
-                <img
-                  class="image-17-icon7"
-                  alt=""
-                  src="./public/image-17@2x.png"
-                />
-              </div>
+              <img
+                class="image-21-icon8"
+                loading="lazy"
+                alt=""
+                src="./public/image-21@2x.png"
+              />
             </div>
-            <div class="content-inner3">
-              <div class="frame-parent113">
-                <div class="frame-parent114">
-                  <div class="frame-parent115">
-                    <div class="tourism-information-center-wrapper2">
-                      <h3 class="tourism-information-center7">
-                        Tourism Information Center
-                      </h3>
-                    </div>
-                    <img
-                      class="frame-child128"
-                      alt=""
-                      src="./public/line-1.svg"
-                    />
+            <div class="image-20-parent2">
+              <img
+                class="image-20-icon8"
+                loading="lazy"
+                alt=""
+                src="./public/image-21@2x.png"
+              />
+
+              <img
+                class="image-18-icon8"
+                loading="lazy"
+                alt=""
+                src="./public/image-18@2x.png"
+              />
+
+              <img
+                class="image-17-icon4"
+                alt=""
+                src="./public/image-17@2x.png"
+              />
+            </div>
+          </div>
+          <div class="content-child">
+            <div class="center-title-container-parent">
+              <div class="center-title-container mx-[80px]">
+                <div class="frame-parent42">
+                  <div class="tourism-information-center-frame">
+                    <h3 class="tourism-information-center4">
+                      Tourism Information Center
+                    </h3>
                   </div>
-                  <div class="membutuhkan-informasi-tentang-wrapper2">
-                    <div class="membutuhkan-informasi-tentang-container7">
-                      <p class="membutuhkan-informasi-tentang7">
-                        Membutuhkan Informasi Tentang Pariwisata Jogja?
-                      </p>
-                      <p class="hubungi-tim-tic7">
-                        Hubungi Tim TIC Dinas Pariwisata Daerah Istimewa
-                        Yogyakarta.
-                      </p>
-                      <p class="hpwa-08527">HP/WA : 0852 2571 5858</p>
-                    </div>
-                  </div>
-                  <div class="dinas-pariwisata-diy-frame">
-                    <div class="dinas-pariwisata-diy7">
-                      Dinas Pariwisata DIY
-                    </div>
+                  <img class="frame-child69" alt="" src="./public/line-1.svg" />
+                </div>
+                <div class="center-description">
+                  <div class="membutuhkan-informasi-tentang-container4">
+                    <p class="membutuhkan-informasi-tentang4">
+                      Membutuhkan Informasi Tentang Pariwisata Jogja?
+                    </p>
+                    <p class="hubungi-tim-tic4">
+                      Hubungi Tim TIC Dinas Pariwisata Daerah Istimewa
+                      Yogyakarta.
+                    </p>
+                    <p class="hpwa-08524">HP/WA : 0852 2571 5858</p>
                   </div>
                 </div>
-                <div class="putih-kecil-1-parent2">
-                  <img
-                    class="putih-kecil-17"
-                    loading="lazy"
-                    alt=""
-                    src="./public/putih-kecil-1@2x.png"
-                  />
+                <div class="center-source">
+                  <div class="dinas-pariwisata-diy4">Dinas Pariwisata DIY</div>
+                </div>
+              </div>
+              <div class="putih-kecil-1-container">
+                <img
+                  class="putih-kecil-14"
+                  loading="lazy"
+                  alt=""
+                  src="./public/putih-kecil-1@2x.png"
+                />
 
-                  <div class="frame-parent116">
-                    <div class="social-media-icon-backgrounds-parent">
-                      <div class="social-media-icon-backgrounds"></div>
-                      <img
-                        class="image-18-icon15"
-                        alt=""
-                        src="./public/image-18-1@2x.png"
-                      />
-                    </div>
-                    <div class="ellipse-parent35">
-                      <div class="frame-child129"></div>
-                      <img
-                        class="image-19-icon7"
-                        loading="lazy"
-                        alt=""
-                        src="./public/image-19@2x.png"
-                      />
-                    </div>
-                    <div class="ellipse-parent36">
-                      <div class="frame-child130"></div>
-                      <img
-                        class="image-20-icon15"
-                        alt=""
-                        src="./public/image-20-1@2x.png"
-                      />
-                    </div>
-                    <div class="ellipse-parent37">
-                      <div class="frame-child131"></div>
-                      <img
-                        class="image-21-icon15"
-                        alt=""
-                        src="./public/image-21-1@2x.png"
-                      />
-                    </div>
-                    <div class="ellipse-parent38">
-                      <div class="frame-child132"></div>
-                      <img
-                        class="image-22-icon15"
-                        alt=""
-                        src="./public/image-22-1@2x.png"
-                      />
-                    </div>
-                    <div class="ellipse-parent39">
-                      <div class="frame-child133"></div>
-                      <img
-                        class="image-26-icon7"
-                        alt=""
-                        src="./public/image-26@2x.png"
-                      />
-                    </div>
+                <div class="social-icons-container">
+                  <div class="icon-backgrounds-parent">
+                    <div class="icon-backgrounds"></div>
+                    <img
+                      class="image-18-icon9"
+                      alt=""
+                      src="./public/image-18-1@2x.png"
+                    />
+                  </div>
+                  <div class="ellipse-parent19">
+                    <div class="frame-child70"></div>
+                    <img
+                      class="image-19-icon4"
+                      loading="lazy"
+                      alt=""
+                      src="./public/image-19@2x.png"
+                    />
+                  </div>
+                  <div class="ellipse-parent20">
+                    <div class="frame-child71"></div>
+                    <img
+                      class="image-20-icon9"
+                      alt=""
+                      src="./public/image-20-1@2x.png"
+                    />
+                  </div>
+                  <div class="ellipse-parent21">
+                    <div class="frame-child72"></div>
+                    <img
+                      class="image-21-icon9"
+                      alt=""
+                      src="./public/image-21-1@2x.png"
+                    />
+                  </div>
+                  <div class="ellipse-parent22">
+                    <div class="frame-child73"></div>
+                    <img
+                      class="image-22-icon9"
+                      alt=""
+                      src="./public/image-22-1@2x.png"
+                    />
+                  </div>
+                  <div class="ellipse-parent23">
+                    <div class="frame-child74"></div>
+                    <img
+                      class="image-26-icon4"
+                      alt=""
+                      src="./public/image-26@2x.png"
+                    />
                   </div>
                 </div>
               </div>
@@ -485,5 +474,6 @@
         </div>
       </footer>
     </div>
+    <script src="https://cdn.tailwindcss.com"></script>
   </body>
 </html>
