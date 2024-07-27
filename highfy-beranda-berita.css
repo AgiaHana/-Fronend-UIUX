@@ -1,0 +1,1656 @@
+.logo-kecil-17 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logo-kecil-1-wrapper4 {
+  align-self: stretch;
+  width: 217.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.beranda7 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+}
+.button-navbar35 {
+  width: 143px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-crimson);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.event9 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+}
+.button-navbar36 {
+  width: 111px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.destinasi7 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+}
+.button-navbar37 {
+  width: 151px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.kuliner7 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+}
+.button-navbar38 {
+  width: 128px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.akomodasi7 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+}
+.button-navbar39 {
+  width: 173px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.pajamasearth-icon7 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.indonesia7 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.01em;
+  color: inherit;
+  display: inline-block;
+  min-width: 112px;
+}
+.frame-child113 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.frame-parent96,
+.navbar5,
+.pajamasearth-parent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pajamasearth-parent4 {
+  gap: var(--gap-base-5);
+  text-align: left;
+}
+.frame-parent96,
+.navbar5 {
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.frame-parent96 {
+  align-self: stretch;
+  height: 85px;
+  background-color: var(--color-white);
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-56xl) var(--padding-base)
+    var(--padding-61xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+.image-71-icon {
+  height: 602px;
+  width: 1440px;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.asyik-museum-vredeburg,
+.image-71-icon,
+.juni-202417 {
+  position: relative;
+}
+.juni-202417 {
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  min-width: 124px;
+}
+.asyik-museum-vredeburg-kini-b-parent {
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-parent95,
+.image-71-parent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.image-71-parent {
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 41px var(--padding-60xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  background-image: url(./public/image-71@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 600px;
+}
+.frame-parent95 {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+.blank-line3,
+.museum-benteng-vredeburg,
+.revitalisasi-museum-adalah {
+  margin: 0;
+}
+.museum-benteng-vredeburg-container {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.museum-benteng-vredeburg-merup-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-14xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-56-icon,
+.image-57-icon,
+.image-58-icon,
+.image-82-icon {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 188px;
+}
+.hero-images,
+.hero-images-wrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.hero-images {
+  display: grid;
+  justify-content: flex-start;
+  gap: 30.7px;
+  grid-template-columns: repeat(4, minmax(141px, 1fr));
+}
+.hero-images-wrapper {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  padding: 0 var(--padding-3xl) var(--padding-14xl) var(--padding-xl);
+  box-sizing: border-box;
+}
+.kami-berharap-wajah {
+  align-self: stretch;
+  position: relative;
+}
+.berita-terkini {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.berita-terkini-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 23px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-crimson);
+}
+.kami-berharap-wajah-baru-museu-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.news-item-images {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.news-item-images-wrapper {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+.span3 {
+  color: var(--color-crimson);
+}
+.westlife-with-love-tour-2024-d2 {
+  margin: 0;
+}
+.juni-202418 {
+  margin: 0;
+  color: var(--color-black);
+}
+.westlife-with-love-container2 {
+  position: relative;
+}
+.westlife-with-love-tour-2024-d-container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 245px;
+  max-width: 100%;
+}
+.frame-child114,
+.frame-parent99 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+}
+.frame-parent99 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 406px;
+}
+.frame-child114 {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle-wrapper16 {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+.juni-202419,
+.pawai-alegoris-harmoni2 {
+  margin: 0;
+}
+.pawai-alegoris-harmoni-container2 {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.frame-parent100,
+.pawai-alegoris-harmoni-jogja-2-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 245px;
+  max-width: 100%;
+}
+.frame-parent100 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-5xs);
+  gap: var(--gap-5xl);
+  min-width: 406px;
+  color: var(--color-black);
+}
+.frame-child115,
+.frame-parent98 {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frame-parent98 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  color: var(--color-gray-200);
+}
+.frame-child115 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle-wrapper17 {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+.jogja-violin-fest3,
+.juni-202420 {
+  margin: 0;
+}
+.jogja-violin-fest-container2 {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.jogja-violin-fest-5-8-juni-20-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 377px;
+  max-width: 100%;
+}
+.frame-child116,
+.frame-parent102 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+}
+.frame-parent102 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 406px;
+}
+.frame-child116 {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle-wrapper18 {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+.ekspectanica-yogyakarta-20242,
+.juni-202421 {
+  margin: 0;
+}
+.ekspectanica-yogyakarta-2024-container2 {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.ekspectanica-yogyakarta-2024-wrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 377px;
+  max-width: 100%;
+}
+.frame-parent101,
+.frame-parent103 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent103 {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 406px;
+}
+.frame-parent101 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.frame-child117 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle-wrapper19 {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+.juni-202422,
+.kerontjong-pesisiran-mataraman3 {
+  margin: 0;
+}
+.kerontjong-pesisiran-mataraman-container3 {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.kerontjong-pesisiran-mataraman-wrapper1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 245px;
+  max-width: 100%;
+}
+.frame-child118,
+.frame-parent105 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+}
+.frame-parent105 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 406px;
+}
+.frame-child118 {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle-wrapper20 {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+.artjog-20243,
+.juni-1-september-20242 {
+  margin: 0;
+}
+.artjog-2024-container2 {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.artjog-2024-motif-ramalan-wrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 377px;
+  max-width: 100%;
+}
+.frame-parent104,
+.frame-parent106 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent106 {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 406px;
+}
+.frame-parent104 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.frame-child119 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle-wrapper21 {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+.juni-202423,
+.petualangan-gizi-seimbang3 {
+  margin: 0;
+}
+.petualangan-gizi-seimbang-container2 {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.petualangan-gizi-seimbang-di-m-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 245px;
+  max-width: 100%;
+}
+.frame-child120,
+.frame-parent108 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+}
+.frame-parent108 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 406px;
+}
+.frame-child120 {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle-wrapper22 {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+.geopark-night-specta6,
+.juni-202424 {
+  margin: 0;
+}
+.geopark-night-specta-container2 {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.geopark-night-specta-60-28-2-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 377px;
+  max-width: 100%;
+}
+.frame-parent107,
+.frame-parent109 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent109 {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 406px;
+}
+.frame-parent107 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.frame-child121 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle-wrapper23 {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+.juli-20244,
+.keroncong-plesiran-vol5 {
+  margin: 0;
+}
+.keroncong-plesiran-vol-container4 {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.keroncong-plesiran-vol-8-20-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 377px;
+  max-width: 100%;
+}
+.frame-child122,
+.frame-parent111 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+}
+.frame-parent111 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 406px;
+}
+.frame-child122 {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle-wrapper24 {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+.juli-20245,
+.keroncong-plesiran-vol6 {
+  margin: 0;
+}
+.keroncong-plesiran-vol-container5 {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.keroncong-plesiran-vol-8-20-wrapper3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 377px;
+  max-width: 100%;
+}
+.frame-parent110,
+.frame-parent112,
+.news-items {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent112 {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 406px;
+}
+.frame-parent110,
+.news-items {
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.frame-parent110 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.news-items {
+  flex: 1;
+  flex-direction: column;
+}
+.news-items-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+}
+.frame-parent97,
+.highfy-beranda-berita-inner,
+.news-items-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent97 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.highfy-beranda-berita-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl) var(--padding-base) var(--padding-60xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+.contact-us-child1 {
+  align-self: stretch;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.lorem-ipsum-has3 {
+  width: 617px;
+  top: 129px;
+  left: 80px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+}
+.frame-child123,
+.lorem-ipsum-has3,
+.lorem-ipsum6 {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 1;
+}
+.lorem-ipsum6 {
+  top: 48px;
+  left: 80px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.frame-child123 {
+  height: 2px;
+  width: 250px;
+  top: 105px;
+  left: 83px;
+}
+.frame-child124 {
+  height: 71px;
+  width: 300px;
+  position: relative;
+  background-color: var(--color-darkgray);
+  display: none;
+}
+.logo3 {
+  flex: 1;
+  position: relative;
+  line-height: 36px;
+  z-index: 1;
+}
+.frame-child125,
+.rectangle-parent38 {
+  position: absolute;
+  margin: 0 !important;
+  right: 80px;
+  z-index: 1;
+}
+.rectangle-parent38 {
+  width: 300px;
+  top: 84px;
+  background-color: var(--color-darkgray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-51xl) var(--padding-mid);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-poppins);
+}
+.frame-child125 {
+  height: 36px;
+  width: 256px;
+  bottom: 119px;
+}
+.frame-child126 {
+  height: 50px;
+  width: 275px;
+  position: relative;
+  background-color: var(--color-darkgray);
+  display: none;
+}
+.lorem-ipsum7 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.rectangle-parent39 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-41xl) var(--padding-4xs)
+    var(--padding-42xl);
+  background-color: var(--color-darkgray);
+  margin: 0 !important;
+  position: absolute;
+  bottom: 81px;
+  left: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-parent39:hover {
+  background-color: var(--color-gray-100);
+}
+.frame-child127 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-crimson);
+}
+.image-21-icon14,
+.image-22-icon14,
+.image-23-icon7 {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  object-fit: contain;
+}
+.image-21-icon14,
+.image-23-icon7 {
+  height: 120px;
+  width: 120px;
+}
+.image-21-icon14 {
+  height: 90px;
+  width: 90px;
+}
+.image-22-parent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+  z-index: 1;
+}
+.image-17-icon7,
+.image-18-icon14,
+.image-20-icon14 {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  object-fit: contain;
+}
+.image-17-icon7,
+.image-18-icon14 {
+  height: 120px;
+  width: 120px;
+}
+.image-17-icon7 {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+.image-20-parent5,
+.rectangle-parent40 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  max-width: 100%;
+}
+.image-20-parent5 {
+  justify-content: flex-start;
+  z-index: 1;
+}
+.rectangle-parent40 {
+  width: 1440px;
+  justify-content: space-between;
+  position: relative;
+  min-height: 350px;
+  gap: var(--gap-xl);
+}
+.tourism-information-center7 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.tourism-information-center-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.frame-child128 {
+  width: 250px;
+  height: 3px;
+  position: relative;
+}
+.frame-parent115 {
+  height: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.hpwa-08527,
+.hubungi-tim-tic7,
+.membutuhkan-informasi-tentang7 {
+  margin: 0;
+}
+.membutuhkan-informasi-tentang-container7 {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.membutuhkan-informasi-tentang-wrapper2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.dinas-pariwisata-diy7 {
+  flex: 1;
+  position: relative;
+}
+.dinas-pariwisata-diy-frame {
+  width: 276px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs-5) 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+  font-size: var(--font-size-5xl);
+  color: var(--color-crimson);
+}
+.frame-parent114 {
+  width: 713px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  min-width: 713px;
+  max-width: 100%;
+}
+.putih-kecil-17 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.social-media-icon-backgrounds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.image-18-icon15 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  z-index: 1;
+}
+.social-media-icon-backgrounds-parent {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.frame-child129 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.image-19-icon7 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipse-parent35 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.frame-child130 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.image-20-icon15 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipse-parent36 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.frame-child131 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.image-21-icon15 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipse-parent37 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.frame-child132 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.image-22-icon15 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipse-parent38 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.frame-child133 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.image-26-icon7 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipse-parent39 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.frame-parent116 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-5xs);
+}
+.putih-kecil-1-parent2 {
+  height: 187.1px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-width: 300px;
+}
+.frame-parent113 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.content-inner3,
+.content9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.content-inner3 {
+  width: 1280px;
+  flex-direction: column;
+  padding: var(--padding-29xl) 0 0;
+  box-sizing: border-box;
+  margin-left: -1360px;
+}
+.content9 {
+  flex: 1;
+  flex-direction: row;
+  z-index: 2;
+  text-align: center;
+  color: var(--color-white);
+}
+.lorem-ipsum-has-been-the-indus-group {
+  flex: 1;
+  flex-direction: row;
+  position: relative;
+  max-width: 100%;
+}
+.contact-us3,
+.highfy-beranda-berita,
+.lorem-ipsum-has-been-the-indus-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-us3 {
+  align-self: stretch;
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+.highfy-beranda-berita {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  gap: 64px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .navbar5 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .asyik-museum-vredeburg {
+    font-size: var(--font-size-7xl);
+  }
+  .image-71-parent {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .hero-images {
+    margin: 0 auto;
+    grid-template-columns: repeat(2, minmax(141px, 244px));
+  }
+  .berita-terkini {
+    font-size: var(--font-size-13xl);
+  }
+  .lorem-ipsum6 {
+    font-size: var(--font-size-10xl);
+  }
+  .logo3 {
+    font-size: var(--font-size-7xl);
+    line-height: 29px;
+  }
+  .tourism-information-center7 {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-parent114,
+  .putih-kecil-1-parent2 {
+    flex: 1;
+  }
+  .frame-parent113 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent96 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+  .news-item-images {
+    align-self: stretch;
+    width: auto;
+  }
+  .news-item-images-wrapper {
+    flex: 1;
+  }
+  .frame-parent99 {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frame-child114 {
+    align-self: stretch;
+    width: auto;
+  }
+  .rectangle-wrapper16 {
+    flex: 1;
+  }
+  .frame-parent100 {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frame-child115 {
+    align-self: stretch;
+    width: auto;
+  }
+  .rectangle-wrapper17 {
+    flex: 1;
+  }
+  .jogja-violin-fest-5-8-juni-20-frame {
+    flex: 1;
+    min-width: 100%;
+  }
+  .frame-parent102 {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frame-child116 {
+    align-self: stretch;
+    width: auto;
+  }
+  .rectangle-wrapper18 {
+    flex: 1;
+  }
+  .ekspectanica-yogyakarta-2024-wrapper1 {
+    flex: 1;
+    min-width: 100%;
+  }
+  .frame-parent103 {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frame-child117 {
+    align-self: stretch;
+    width: auto;
+  }
+  .rectangle-wrapper19 {
+    flex: 1;
+  }
+  .frame-parent105 {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frame-child118 {
+    align-self: stretch;
+    width: auto;
+  }
+  .rectangle-wrapper20 {
+    flex: 1;
+  }
+  .artjog-2024-motif-ramalan-wrapper1 {
+    flex: 1;
+    min-width: 100%;
+  }
+  .frame-parent106 {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frame-child119 {
+    align-self: stretch;
+    width: auto;
+  }
+  .rectangle-wrapper21 {
+    flex: 1;
+  }
+  .frame-parent108 {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frame-child120 {
+    align-self: stretch;
+    width: auto;
+  }
+  .rectangle-wrapper22 {
+    flex: 1;
+  }
+  .geopark-night-specta-60-28-2-frame {
+    flex: 1;
+    min-width: 100%;
+  }
+  .frame-parent109 {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frame-child121 {
+    align-self: stretch;
+    width: auto;
+  }
+  .rectangle-wrapper23 {
+    flex: 1;
+  }
+  .keroncong-plesiran-vol-8-20-wrapper2 {
+    flex: 1;
+    min-width: 100%;
+  }
+  .frame-parent111 {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frame-child122 {
+    align-self: stretch;
+    width: auto;
+  }
+  .rectangle-wrapper24 {
+    flex: 1;
+  }
+  .keroncong-plesiran-vol-8-20-wrapper3 {
+    flex: 1;
+    min-width: 100%;
+  }
+  .frame-parent112 {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frame-parent97 {
+    gap: var(--gap-xl);
+  }
+  .highfy-beranda-berita-inner {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .rectangle-parent40 {
+    flex-wrap: wrap;
+  }
+  .frame-parent114 {
+    min-width: 100%;
+  }
+  .highfy-beranda-berita {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .asyik-museum-vredeburg,
+  .juni-202417 {
+    font-size: var(--font-size-lgi);
+  }
+  .image-56-icon,
+  .image-57-icon,
+  .image-58-icon,
+  .image-82-icon {
+    width: 100%;
+  }
+  .hero-images {
+    gap: var(--gap-mini);
+    grid-template-columns: minmax(141px, 1fr);
+  }
+  .berita-terkini {
+    font-size: var(--font-size-5xl);
+  }
+  .artjog-2024-container2,
+  .ekspectanica-yogyakarta-2024-container2,
+  .geopark-night-specta-container2,
+  .jogja-violin-fest-container2,
+  .keroncong-plesiran-vol-container4,
+  .keroncong-plesiran-vol-container5,
+  .kerontjong-pesisiran-mataraman-container3,
+  .pawai-alegoris-harmoni-container2,
+  .petualangan-gizi-seimbang-container2,
+  .westlife-with-love-container2 {
+    font-size: var(--font-size-lgi);
+  }
+  .lorem-ipsum6 {
+    font-size: var(--font-size-3xl);
+  }
+  .logo3 {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+  .tourism-information-center7 {
+    font-size: var(--font-size-3xl);
+  }
+  .putih-kecil-1-parent2 {
+    gap: var(--gap-xl);
+  }
+  .highfy-beranda-berita {
+    gap: var(--gap-base);
+  }
+}

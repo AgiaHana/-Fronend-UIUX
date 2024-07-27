@@ -1,0 +1,1438 @@
+.logo-kecil-12 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logo-kecil-1-container {
+  align-self: stretch;
+  width: 217.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.beranda2 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+}
+.button-navbar10 {
+  width: 143px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.event2 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+}
+.button-navbar11 {
+  width: 111px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-crimson);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.destinasi2 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+}
+.button-navbar12 {
+  width: 151px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.kuliner2 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+}
+.button-navbar13 {
+  width: 128px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.akomodasi2 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+}
+.button-navbar14 {
+  width: 173px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.pajamasearth-icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.indonesia2 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.01em;
+  color: inherit;
+  display: inline-block;
+  min-width: 112px;
+}
+.frame-child13 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.button-navbar-parent,
+.navbar2,
+.pajamasearth-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pajamasearth-container {
+  gap: var(--gap-base-5);
+  text-align: left;
+}
+.button-navbar-parent,
+.navbar2 {
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.navbar2 {
+  align-self: stretch;
+  height: 85px;
+  background-color: var(--color-white);
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-56xl) var(--padding-base)
+    var(--padding-61xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+.frame-child14 {
+  width: 1440px;
+  height: 256px;
+  position: relative;
+  background-color: var(--color-crimson);
+  display: none;
+  max-width: 100%;
+}
+.westlife-with-love {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-child15 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.juni-2024,
+.waktu {
+  position: relative;
+  display: inline-block;
+}
+.waktu {
+  font-weight: 600;
+  min-width: 76px;
+}
+.juni-2024 {
+  font-size: var(--font-size-base);
+  min-width: 83px;
+}
+.frame-parent5,
+.waktu-parent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.waktu-parent {
+  flex: 1;
+  flex-direction: column;
+}
+.frame-parent5 {
+  width: 131px;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.event-item-icons {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  max-height: 100%;
+  min-height: 55px;
+}
+.content-list-event {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 122px;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.basillocation-outline-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.basillocation-outline-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-5) 0 0;
+}
+.lokasi1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 74px;
+}
+.lokasi-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl);
+}
+.candi-prambanan {
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.content-list-event-inner,
+.frame-parent6,
+.frame-parent7 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content-list-event-inner,
+.frame-parent6 {
+  flex-direction: row;
+}
+.content-list-event-child {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  max-height: 100%;
+  min-height: 55px;
+}
+.content-list-event1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  min-width: 122px;
+  z-index: 1;
+}
+.hugeiconsmaps-global-01 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.hugeiconsmaps-global-01-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-5) 0 0;
+}
+.maps {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 63px;
+}
+.maps-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid);
+}
+.view-in-maps {
+  position: relative;
+  font-size: var(--font-size-base);
+  text-decoration: underline;
+  color: inherit;
+  display: inline-block;
+  min-width: 98px;
+}
+.content-list-event2,
+.frame-parent8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content-list-event2 {
+  flex-direction: row;
+  gap: var(--gap-mini);
+  z-index: 1;
+}
+.content-list-event-parent,
+.frame-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.content-list-event-parent {
+  width: 573px;
+  flex-wrap: wrap;
+  gap: var(--gap-11xl);
+}
+.frame-wrapper {
+  width: 768px;
+  font-size: var(--font-size-5xl);
+}
+.rectangle-parent1 {
+  align-self: stretch;
+  background-color: var(--color-crimson);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-29xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.deskripsi {
+  position: relative;
+}
+.deskripsi-wrapper {
+  width: 649.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-42-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image-42-wrapper {
+  height: 528px;
+  width: 523px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 523px;
+  max-width: 100%;
+}
+.blank-line,
+.blank-line1,
+.blank-line2,
+.join-us-for,
+.siapkan-dirimu-untuk,
+.westlife-with-love1,
+.westlifers-are-you {
+  margin: 0;
+}
+.westlifers-are-you-container {
+  height: 528px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 422px;
+  max-width: 100%;
+}
+.frame-parent10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 94px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.frame-parent4,
+.frame-parent9,
+.frame-wrapper1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent9 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-5xl);
+}
+.frame-parent4,
+.frame-wrapper1 {
+  align-items: flex-start;
+}
+.frame-wrapper1 {
+  width: 1427px;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-13xl);
+  color: var(--color-crimson);
+}
+.frame-parent4 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-29xl);
+}
+.talent1 {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  color: var(--color-crimson);
+  text-align: left;
+  min-width: 102px;
+}
+.talent-images-icon {
+  height: 75px;
+  width: 124px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+}
+.shane-filan {
+  position: relative;
+  font-weight: 600;
+}
+.content-talen-card {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 318px var(--padding-sm) var(--padding-mini);
+  gap: var(--gap-13xl);
+}
+.content-talen-card-child {
+  height: 75px;
+  width: 124px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+}
+.kian-egan {
+  position: relative;
+  font-weight: 600;
+}
+.content-talen-card1,
+.talent {
+  display: flex;
+  gap: var(--gap-13xl);
+}
+.content-talen-card1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) 163px var(--padding-sm) var(--padding-mini);
+}
+.talent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.event-lainnya1 {
+  position: relative;
+}
+.other-event-images {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  border-radius: var(--br-base);
+  object-fit: cover;
+}
+.jogja-violin-fest,
+.sobat-visiting-jogja {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.jogja-violin-fest {
+  width: 361px;
+  height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.sobat-visiting-jogja {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+}
+.jogja-violin-fest-5-8-juni-20-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 660px;
+  max-width: 100%;
+}
+.content-card-berita-evente-t,
+.other-event-content {
+  align-self: stretch;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.other-event-content {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 var(--padding-70xl) 0 0;
+  gap: var(--gap-5xl);
+}
+.content-card-berita-evente-t {
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-sm) var(--padding-mini);
+}
+.frame-child16 {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  border-radius: var(--br-base);
+  object-fit: cover;
+}
+.kerontjong-pesisiran-mataraman {
+  margin: 0;
+}
+.kerontjong-pesisiran-mataraman-container {
+  height: 40px;
+  position: relative;
+  font-weight: 600;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.simak-baik-baik,
+.sobat-visitingf-jogja {
+  margin: 0;
+}
+.sobat-visitingf-jogja-container {
+  align-self: stretch;
+  height: 22px;
+  position: relative;
+  font-size: var(--font-size-base);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.kerontjong-pesisiran-mataraman-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 660px;
+  max-width: 100%;
+}
+.content-card-berita-evente-t1,
+.rectangle-parent2 {
+  align-self: stretch;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-parent2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 var(--padding-70xl) 0 0;
+  gap: var(--gap-5xl);
+}
+.content-card-berita-evente-t1 {
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-sm) var(--padding-mini);
+}
+.frame-child17 {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  border-radius: var(--br-base);
+  object-fit: cover;
+}
+.libur-sebentar-lagi,
+.petualangan-gizi-seimbang {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.petualangan-gizi-seimbang {
+  width: 713px;
+  height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.libur-sebentar-lagi {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+}
+.petualangan-gizi-seimbang-di-m-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 660px;
+  max-width: 100%;
+}
+.rectangle-parent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-70xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.content-card-berita-evente-t-parent,
+.content-card-berita-evente-t2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.content-card-berita-evente-t2 {
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  padding: var(--padding-sm) var(--padding-mini);
+}
+.content-card-berita-evente-t-parent {
+  gap: var(--gap-base);
+  font-size: var(--font-size-5xl);
+}
+.event-lainnya,
+.talent-parent {
+  flex-direction: column;
+  max-width: 100%;
+}
+.event-lainnya {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-crimson);
+}
+.talent-parent {
+  flex: 1;
+  gap: var(--gap-29xl);
+}
+.frame-section,
+.frame-wrapper2,
+.talent-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.frame-section {
+  flex-direction: column;
+  gap: 72px;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+.contact-us-item,
+.frame-section,
+.navbar-parent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.navbar-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-us-item {
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.lorem-ipsum-has1 {
+  width: 617px;
+  top: 129px;
+  left: 80px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+}
+.contact-icon,
+.lorem-ipsum-has1,
+.lorem-ipsum2 {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 1;
+}
+.lorem-ipsum2 {
+  top: 48px;
+  left: 80px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.contact-icon {
+  height: 2px;
+  width: 250px;
+  top: 105px;
+  left: 83px;
+}
+.frame-child18 {
+  height: 71px;
+  width: 300px;
+  position: relative;
+  background-color: var(--color-darkgray);
+  display: none;
+}
+.logo1 {
+  flex: 1;
+  position: relative;
+  line-height: 36px;
+  z-index: 1;
+}
+.frame-child19,
+.rectangle-parent4 {
+  position: absolute;
+  margin: 0 !important;
+  right: 80px;
+  z-index: 1;
+}
+.rectangle-parent4 {
+  width: 300px;
+  top: 84px;
+  background-color: var(--color-darkgray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-51xl) var(--padding-mid);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-poppins);
+}
+.frame-child19 {
+  height: 36px;
+  width: 256px;
+  bottom: 119px;
+}
+.frame-child20 {
+  height: 50px;
+  width: 275px;
+  position: relative;
+  background-color: var(--color-darkgray);
+  display: none;
+}
+.lorem-ipsum3 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.rectangle-parent5 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-41xl) var(--padding-4xs)
+    var(--padding-42xl);
+  background-color: var(--color-darkgray);
+  margin: 0 !important;
+  position: absolute;
+  bottom: 81px;
+  left: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-parent5:hover {
+  background-color: var(--color-gray-100);
+}
+.gallery-background2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-crimson);
+}
+.image-21-icon4,
+.image-22-icon4,
+.image-23-icon2 {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  object-fit: contain;
+}
+.image-21-icon4,
+.image-23-icon2 {
+  height: 120px;
+  width: 120px;
+}
+.image-21-icon4 {
+  height: 90px;
+  width: 90px;
+}
+.image-22-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+  z-index: 1;
+}
+.image-17-icon2,
+.image-18-icon4,
+.image-20-icon4 {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  object-fit: contain;
+}
+.image-17-icon2,
+.image-18-icon4 {
+  height: 120px;
+  width: 120px;
+}
+.image-17-icon2 {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+.gallery-background-container,
+.image-20-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  max-width: 100%;
+}
+.image-20-container {
+  justify-content: flex-start;
+  z-index: 1;
+}
+.gallery-background-container {
+  width: 1440px;
+  justify-content: space-between;
+  position: relative;
+  min-height: 350px;
+  gap: var(--gap-xl);
+}
+.tourism-information-center2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.tourism-information-center-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.frame-child21 {
+  width: 250px;
+  height: 3px;
+  position: relative;
+}
+.frame-parent13 {
+  height: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.hpwa-08522,
+.hubungi-tim-tic2,
+.membutuhkan-informasi-tentang2 {
+  margin: 0;
+}
+.membutuhkan-informasi-tentang-container2 {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.membutuhkan-informasi-tentang-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.dinas-pariwisata-diy2 {
+  flex: 1;
+  position: relative;
+}
+.dinas-pariwisata-diy-wrapper {
+  width: 276px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs-5) 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+  font-size: var(--font-size-5xl);
+  color: var(--color-crimson);
+}
+.frame-parent12 {
+  width: 713px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  min-width: 713px;
+  max-width: 100%;
+}
+.putih-kecil-12 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.social-icon-circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.image-18-icon5 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  z-index: 1;
+}
+.social-icon-circles-parent {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.frame-child22 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.image-19-icon2 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  z-index: 1;
+}
+.ellipse-parent9 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.frame-child23 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.image-20-icon5 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  z-index: 1;
+}
+.ellipse-parent10 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.frame-child24 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.image-21-icon5 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  z-index: 1;
+}
+.ellipse-parent11 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.frame-child25 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.image-22-icon5 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  z-index: 1;
+}
+.ellipse-parent12 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.frame-child26 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.image-26-icon2 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  z-index: 1;
+}
+.ellipse-parent13 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.frame-parent14 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-5xs);
+}
+.putih-kecil-1-parent {
+  height: 187.1px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-width: 300px;
+}
+.frame-parent11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.content-inner,
+.content2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.content-inner {
+  width: 1280px;
+  flex-direction: column;
+  padding: var(--padding-29xl) 0 0;
+  box-sizing: border-box;
+  margin-left: -1360px;
+}
+.content2 {
+  flex: 1;
+  flex-direction: row;
+  z-index: 2;
+  text-align: center;
+  color: var(--color-white);
+}
+.lorem-ipsum-has-been-the-indus-parent {
+  flex: 1;
+  flex-direction: row;
+  position: relative;
+  max-width: 100%;
+}
+.contact-us1,
+.highfy-beranda-detail-event,
+.lorem-ipsum-has-been-the-indus-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-us1 {
+  align-self: stretch;
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+.highfy-beranda-detail-event {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-61xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .button-navbar-parent {
+    display: none;
+  }
+  .image-42-icon {
+    align-self: stretch;
+    width: auto;
+  }
+  .image-42-wrapper {
+    flex: 1;
+  }
+  .frame-parent10 {
+    flex-wrap: wrap;
+  }
+  .other-event-content,
+  .rectangle-parent2,
+  .rectangle-parent3 {
+    padding-right: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .westlife-with-love {
+    font-size: var(--font-size-19xl);
+  }
+  .deskripsi,
+  .event-lainnya1,
+  .talent1 {
+    font-size: var(--font-size-7xl);
+  }
+  .jogja-violin-fest-5-8-juni-20-parent,
+  .kerontjong-pesisiran-mataraman-parent,
+  .petualangan-gizi-seimbang-di-m-parent {
+    min-width: 100%;
+  }
+  .lorem-ipsum2 {
+    font-size: var(--font-size-10xl);
+  }
+  .logo1 {
+    font-size: var(--font-size-7xl);
+    line-height: 29px;
+  }
+  .tourism-information-center2 {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-parent12,
+  .putih-kecil-1-parent {
+    flex: 1;
+  }
+  .frame-parent11 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar2 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+  .image-42-wrapper,
+  .westlifers-are-you-container {
+    min-width: 100%;
+  }
+  .frame-parent10 {
+    gap: 47px;
+  }
+  .frame-wrapper1 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .frame-parent4 {
+    gap: var(--gap-5xl);
+  }
+  .content-talen-card,
+  .content-talen-card1 {
+    flex-wrap: wrap;
+    gap: var(--gap-base);
+    padding-right: 159px;
+    box-sizing: border-box;
+  }
+  .content-talen-card1 {
+    padding-right: 81px;
+  }
+  .talent {
+    gap: var(--gap-base);
+  }
+  .other-event-content,
+  .rectangle-parent2,
+  .rectangle-parent3 {
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+  .event-lainnya {
+    gap: var(--gap-xl);
+  }
+  .talent-parent {
+    gap: var(--gap-5xl);
+  }
+  .frame-wrapper2 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .frame-section {
+    gap: 36px;
+  }
+  .gallery-background-container {
+    flex-wrap: wrap;
+  }
+  .frame-parent12 {
+    min-width: 100%;
+  }
+  .highfy-beranda-detail-event {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .westlife-with-love {
+    font-size: var(--font-size-10xl);
+  }
+  .lokasi1,
+  .maps,
+  .waktu {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-parent1 {
+    gap: var(--gap-xl);
+  }
+  .deskripsi,
+  .westlifers-are-you-container {
+    font-size: var(--font-size-lgi);
+  }
+  .frame-parent10 {
+    gap: 23px;
+  }
+  .shane-filan,
+  .talent1 {
+    font-size: var(--font-size-lgi);
+  }
+  .content-talen-card {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .kian-egan {
+    font-size: var(--font-size-lgi);
+  }
+  .content-talen-card1 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .event-lainnya1,
+  .jogja-violin-fest,
+  .kerontjong-pesisiran-mataraman-container,
+  .petualangan-gizi-seimbang {
+    font-size: var(--font-size-lgi);
+  }
+  .frame-section {
+    gap: 18px;
+  }
+  .lorem-ipsum2 {
+    font-size: var(--font-size-3xl);
+  }
+  .logo1 {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+  .tourism-information-center2 {
+    font-size: var(--font-size-3xl);
+  }
+  .highfy-beranda-detail-event,
+  .putih-kecil-1-parent {
+    gap: var(--gap-xl);
+  }
+}

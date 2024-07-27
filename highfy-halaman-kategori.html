@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./highfy-halaman-kategori.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"  rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+<nav class="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="./public/logo-kecil-1@2x.png" class="h-8" alt="" />
+    </a>
+    <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+        <li>
+          <a href="highfy-beranda-view.html" class="block py-2 px-3 text-white bg-red-700 rounded" aria-current="page">Beranda</a>
+        </li>
+        <li>
+          <a href="highfy-beranda-event.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">Event</a>
+        </li>
+        <li>
+          <a href="highfy-beranda-destinasi.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">Destinasi</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">Kuliner</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">Akomodasi</a>
+        </li>
+        <li>
+          <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">
+            <img src="./public/pajamasearth.svg" class="h-[24px] w-[24px] px-[4px]" alt="">
+            Indonesia <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+          </svg></button>
+          <!-- Dropdown menu -->
+          <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+              <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">English</a>
+                </li>
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">China</a>
+                </li>
+              </ul>
+          </div>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+
+<div class="highfy-beranda-destinasi">
+  <main class="main1">
+    <section class="navigation-container-parent">
+      <div class="card-content-destinasi-parent">
+        <div class="card-content-destinasi3">
+          <div class="tugu-jogja-1-parent">
+            <img
+              class="tugu-jogja-1"
+              alt=""
+              src="./public/kategori.png"
+            />
+          </div>
+          <div class="destination-content1">
+            <div class="search-container-parent">
+              <div class="search-container1">
+                <div class="search-title">
+                  <h1 class="destinasi-wisata">DESTINASI WISATA</h1>
+                </div>
+                <div class="destination-description">
+                  <h3 class="temukan-informasi-seputar">
+                    Temukan Informasi Seputar Pariwisata Daerah Istimewa
+                    Yogyakarta
+                  </h3>
+                </div>
+              </div>
+              <div class="search2">
+                <div class="search-placeholder">
+                  <div class="cari-informasi-wisata2">
+                    Cari informasi wisata....
+                  </div>
+                </div>
+                <div class="search-button">
+                  <a href="highfy-halaman-cari-informasi.html">
+                  <div class="cari2">Cari</div>
+                </a>
+                </div>
+              </div>
+            </div>
+            <img
+              class="destination-content-child"
+              loading="lazy"
+              alt=""
+              src="./public/group-102.svg"
+            />
+          </div>
+        </div>
+        <div class="category">
+          <div class="category-buttons1">
+            <div class="button-kategori14 hover:bg-red-700 hover:text-white">
+              <button class="material-symbols-lightforest-icon2"><a href="#"><img src="./public/materialsymbolslightforestoutlinerounded.svg" alt=""></a></button>
+
+              <div class="labels">
+                <div class="alam2">Alam</div>
+              </div>
+            </div>
+
+            <div class="button-kategori15 bg-red-700 hover:text-white">
+              <button class="material-symbols-lightforest-icon2"><a href="highfy-halaman-kategori.html"><img class="vector-icon12" src="./public/Vector.png" alt=""></a></button>
+              <div class="pantai-frame">
+                <div class="pantai2">Pantai</div>
+              </div>
+            </div>
+
+            <div class="button-kategori16 hover:bg-red-700 hover:text-white">
+              <button class="fluenthome-heart-20-regular2"><a href="#"><img class="vector-icon12" src="./public/fluent_home-heart-20-regular.png" alt=""></a></button>
+
+              <div class="budaya-frame">
+                <div class="budaya2">Budaya</div>
+              </div>
+            </div>
+
+            <div class="button-kategori17 hover:bg-red-700 hover:text-white">
+              <button class="guidancemuseum2"><a href="#"><img class="vector-icon12" src="./public/vector-21.svg" alt=""></a></button>
+
+              <div class="museum-frame">
+                <a class="museum2">Museum</a>
+              </div>
+            </div>
+
+            <div class="button-kategori18 hover:bg-red-700 hover:text-white">
+              <button class="guidancemuseum2"><a href="#"><img class="vector-icon12" src="./public/vector-3.svg" alt=""></a></button>
+              <div class="minat-khusus-frame">
+                <div class="minat-khusus2">Minat Khusus</div>
+              </div>
+            </div>
+            
+            <div class="button-kategori19 hover:bg-red-700 hover:text-white">
+              <button class="guidancemuseum2"><a href="#"><img class="vector-icon12" src="./public/vector-4.svg" alt=""></a></button>
+              <div class="buatan-frame">
+                <div class="buatan2">Buatan</div>
+              </div>
+            </div>
+
+            <div class="button-kategori20 hover:bg-red-700 hover:text-white">
+              <button class="guidancemuseum2"><a href="#"><img class="vector-icon12" src="./public/vector-5.svg" alt=""></a></button>
+              <div class="desa-wisata-frame">
+                <div class="desa-wisata2">Desa Wisata</div>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+    </section>
+      <section class="highfy-halaman-kategori-inner1">
+        <div class="frame-parent48">
+          <div class="recommendation-title-container-wrapper">
+            <div class="recommendation-title-container">
+              <h2 class="rekomendasi">REKOMENDASI</h2>
+            </div>
+          </div>
+          <div class="content-rekomendasi-pantai-parent">
+            <div class="content-rekomendasi-pantai">
+              <div class="recommendation-card-items-parent">
+                <div class="recommendation-card-items">
+                  <img
+                    class="card-backgrounds-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/rectangle-77@2x.png"
+                  />
+
+                  <div style="display: flex;"></div>
+                  <div class="recommendation-card-items-inner" class="mr-[16px]">
+                    <div class="frame-parent49">
+                      <div class="pantai-jungwok-wrapper">
+                        <b class="pantai-jungwok">Pantai Jungwok</b>
+                      </div>
+                      <div class="girisubo-gunung-kidul">
+                        Girisubo, Gunung Kidul
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="card-button-containers-parent">
+                  <div class="card-button-containers">
+                    <a href="highfy-halaman-informasi.html">
+                    <div class="selengkapnya">Selengkapnya</div></a>
+                  </div>
+                  <img
+                    class="tablerarrow-up-icon1"
+                    alt=""
+                    src="./public/tablerarrowup1@2x.png"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="content-rekomendasi-pantai1">
+              <div class="frame-parent50">
+                <div class="rectangle-parent33">
+                  <img
+                    class="frame-child78"
+                    alt=""
+                    src="./public/rectangle-77-1@2x.png"
+                  />
+
+                  <div class="frame-wrapper12">
+                    <div class="frame-parent51">
+                      <div class="pantai-parangtritis-wrapper">
+                        <b class="pantai-parangtritis">Pantai Parangtritis</b>
+                      </div>
+                      <div class="kretek-bantul">Kretek, Bantul</div>
+                    </div>
+                  </div>
+                </div>
+                <button class="frame-parent52">
+                  <div class="selengkapnya-wrapper">
+                    <div class="selengkapnya1"><a href="highfy-halaman-informasi.html">Selengkapnya</a></div>
+                  </div>
+                  <img
+                    class="tablerarrow-up-icon2"
+                    alt=""
+                    src="./public/tablerarrowup1@2x.png"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="content-rekomendasi-pantai2">
+              <div class="frame-parent53">
+                <div class="rectangle-parent34">
+                  <img
+                    class="frame-child79"
+                    alt=""
+                    src="./public/rectangle-77-2@2x.png"
+                  />
+
+                  <div class="frame-wrapper13">
+                    <div class="frame-parent54">
+                      <div class="pantai-ngobaran-wrapper">
+                        <b class="pantai-ngobaran">Pantai Ngobaran</b>
+                      </div>
+                      <div class="saptosari-gunung-kidul">
+                        Saptosari, Gunung Kidul
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="frame-parent55">
+                  <div class="selengkapnya-container">
+                    <div class="selengkapnya2"><a href="highfy-halaman-informasi.html">Selengkapnya</a></div>
+                  </div>
+                  <img
+                    class="tablerarrow-up-icon3"
+                    alt=""
+                    src="./public/tablerarrowup1@2x.png"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="content-rekomendasi-pantai3">
+              <div class="frame-parent56">
+                <div class="rectangle-parent35">
+                  <img
+                    class="frame-child80"
+                    alt=""
+                    src="./public/rectangle-77-3@2x.png"
+                  />
+
+                  <div class="frame-wrapper14">
+                    <div class="frame-parent57">
+                      <div class="pantai-pok-tunggal-wrapper">
+                        <b class="pantai-pok-tunggal">Pantai Pok Tunggal</b>
+                      </div>
+                      <div class="tepus-gunung-kidul">Tepus, Gunung Kidul</div>
+                    </div>
+                  </div>
+                </div>
+                <button class="frame-parent58">
+                  <div class="selengkapnya-frame">
+                    <div class="selengkapnya3">Selengkapnya</div>
+                  </div>
+                  <img
+                    class="tablerarrow-up-icon4"
+                    alt=""
+                    src="./public/tablerarrowup1@2x.png"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="content-rekomendasi-pantai4">
+              <div class="frame-parent59">
+                <div class="rectangle-parent36">
+                  <img
+                    class="frame-child81"
+                    alt=""
+                    src="./public/rectangle-77-4@2x.png"
+                  />
+
+                  <div class="frame-wrapper15">
+                    <div class="frame-parent60">
+                      <div class="pantai-goa-cemara-wrapper">
+                        <b class="pantai-goa-cemara">Pantai Goa Cemara</b>
+                      </div>
+                      <div class="gading-sari-bantul">Gading Sari, Bantul</div>
+                    </div>
+                  </div>
+                </div>
+                <button class="frame-parent61">
+                  <div class="selengkapnya-wrapper1">
+                    <div class="selengkapnya4">Selengkapnya</div>
+                  </div>
+                  <img
+                    class="tablerarrow-up-icon5"
+                    alt=""
+                    src="./public/tablerarrowup1@2x.png"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="content-rekomendasi-pantai5">
+              <div class="frame-parent62">
+                <div class="rectangle-parent37">
+                  <img
+                    class="frame-child82"
+                    alt=""
+                    src="./public/rectangle-77-5@2x.png"
+                  />
+
+                  <div class="frame-wrapper16">
+                    <div class="frame-parent63">
+                      <div class="pantai-wediombo-wrapper">
+                        <b class="pantai-wediombo1">Pantai Wediombo</b>
+                      </div>
+                      <div class="sidoharjo-gunung-kidul">
+                        Sidoharjo, Gunung Kidul
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="frame-parent64">
+                  <div class="selengkapnya-wrapper2">
+                    <div class="selengkapnya5">Selengkapnya</div>
+                  </div>
+                  <img
+                    class="tablerarrow-up-icon6"
+                    alt=""
+                    src="./public/tablerarrowup1@2x.png"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="highfy-halaman-kategori-inner2">
+        <div class="frame-parent65">
+          <div class="info-terbaru-wrapper">
+            <h2 class="info-terbaru">INFO TERBARU</h2>
+          </div>
+          <div class="info-cards-parent">
+            <div class="info-cards">
+              <div class="info-card-items-parent">
+                <div class="info-card-items">
+                  <img
+                    class="info-card-backgrounds"
+                    loading="lazy"
+                    alt=""
+                    src="./public/rectangle-105@2x.png"
+                  />
+                </div>
+                <div class="westlife-with-love-tour-2024-d-wrapper">
+                  <div class="westlife-with-love-container">
+                    <p class="westlife-with-love-tour-2024-d">
+                      <span>WESTLIFE WITH LOVE TOUR 2024 di Jogja</span>
+                      <span class="span1"> </span>
+                    </p>
+                    <p class="juni-20241">(7 Juni 2024)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="info-card-sub-items-parent">
+                <div class="info-card-sub-items">
+                  <img
+                    class="info-card-sub-backgrounds"
+                    alt=""
+                    src="./public/rectangle-105-1@2x.png"
+                  />
+                </div>
+                <div class="pawai-alegoris-harmoni-jogja-2-wrapper">
+                  <div class="pawai-alegoris-harmoni-container">
+                    <p class="pawai-alegoris-harmoni">
+                      Pawai Alegoris Harmoni Jogja 2024
+                    </p>
+                    <p class="juni-20242">(8 Juni 2024)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="info-cards1">
+              <div class="frame-parent66">
+                <div class="rectangle-wrapper">
+                  <img
+                    class="frame-child83"
+                    alt=""
+                    src="./public/rectangle-105-2@2x.png"
+                  />
+                </div>
+                <div class="jogja-violin-fest-5-8-juni-20-wrapper">
+                  <div class="jogja-violin-fest-container">
+                    <p class="jogja-violin-fest1">Jogja Violin Fest 5</p>
+                    <p class="juni-20243">(8 Juni 2024)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="frame-parent67">
+                <div class="rectangle-frame">
+                  <img
+                    class="frame-child84"
+                    alt=""
+                    src="./public/rectangle-105-3@2x.png"
+                  />
+                </div>
+                <div class="ekspectanica-yogyakarta-2024-wrapper">
+                  <div class="ekspectanica-yogyakarta-2024-container">
+                    <p class="ekspectanica-yogyakarta-2024">
+                      Ekspectanica Yogyakarta 2024
+                    </p>
+                    <p class="juni-20244">(8 & 9 Juni 2024)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="info-cards2">
+              <div class="frame-parent68">
+                <div class="rectangle-wrapper1">
+                  <img
+                    class="frame-child85"
+                    alt=""
+                    src="./public/rectangle-105-4@2x.png"
+                  />
+                </div>
+                <div class="kerontjong-pesisiran-mataraman-wrapper">
+                  <div class="kerontjong-pesisiran-mataraman-container1">
+                    <p class="kerontjong-pesisiran-mataraman1">
+                      KERONTJONG PESISIRAN MATARAMAN
+                    </p>
+                    <p class="juni-20245">(8 Juni 2024)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="frame-parent69">
+                <div class="rectangle-wrapper2">
+                  <img
+                    class="frame-child86"
+                    alt=""
+                    src="./public/rectangle-105-5@2x.png"
+                  />
+                </div>
+                <div class="artjog-2024-motif-ramalan-container">
+                  <div class="artjog-2024-container">
+                    <p class="artjog-20241">ARTJOG 2024 – Motif: Ramalan</p>
+                    <p class="juni-1-september-2024">
+                      (28 Juni-1 September 2024)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="info-cards3">
+              <div class="frame-parent70">
+                <div class="rectangle-wrapper3">
+                  <img
+                    class="frame-child87"
+                    alt=""
+                    src="./public/rectangle-105-6@2x.png"
+                  />
+                </div>
+                <div class="petualangan-gizi-seimbang-di-m-wrapper">
+                  <div class="petualangan-gizi-seimbang-container">
+                    <p class="petualangan-gizi-seimbang1">
+                      Petualangan Gizi Seimbang di Museum Pisang
+                    </p>
+                    <p class="juni-20246">(9 Juni 2024)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="frame-parent71">
+                <div class="rectangle-wrapper4">
+                  <img
+                    class="frame-child88"
+                    alt=""
+                    src="./public/rectangle-105-7@2x.png"
+                  />
+                </div>
+                <div class="geopark-night-specta-60-28-2-wrapper">
+                  <div class="geopark-night-specta-container">
+                    <p class="geopark-night-specta4">
+                      Geopark Night Specta 6.0
+                    </p>
+                    <p class="juni-20247">(28-29 Juni 2024)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="info-cards4">
+              <div class="frame-parent72">
+                <div class="rectangle-wrapper5">
+                  <img
+                    class="frame-child89"
+                    alt=""
+                    src="./public/rectangle-105-8@2x.png"
+                  />
+                </div>
+                <div class="keroncong-plesiran-vol-8-20-wrapper">
+                  <div class="keroncong-plesiran-vol-container">
+                    <p class="keroncong-plesiran-vol1">
+                      Keroncong Plesiran Vol. 8
+                    </p>
+                    <p class="juli-2024">(20 Juli 2024)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="frame-parent73">
+                <div class="rectangle-wrapper6">
+                  <img
+                    class="frame-child90"
+                    alt=""
+                    src="./public/rectangle-105-8@2x.png"
+                  />
+                </div>
+                <div class="keroncong-plesiran-vol-8-20-container">
+                  <div class="keroncong-plesiran-vol-container1">
+                    <p class="keroncong-plesiran-vol2">
+                      Keroncong Plesiran Vol. 8
+                    </p>
+                    <p class="juli-20241">(20 Juli 2024)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="card-content-destinasi6">
+        <div class="content6">
+          <div class="tourism-image-placeholder-parent">
+            <div class="tourism-image-placeholder"></div>
+            <div class="image-22-parent3">
+              <img
+                class="image-22-icon10"
+                loading="lazy"
+                alt=""
+                src="./public/image-22@2x.png"
+              />
+
+              <img
+                class="image-23-icon5"
+                loading="lazy"
+                alt=""
+                src="./public/image-23@2x.png"
+              />
+
+              <img
+                class="image-21-icon10"
+                loading="lazy"
+                alt=""
+                src="./public/image-21@2x.png"
+              />
+            </div>
+            <div class="image-20-parent3">
+              <img
+                class="image-20-icon10"
+                loading="lazy"
+                alt=""
+                src="./public/image-21@2x.png"
+              />
+
+              <img
+                class="image-18-icon10"
+                loading="lazy"
+                alt=""
+                src="./public/image-18@2x.png"
+              />
+
+              <img
+                class="image-17-icon5"
+                alt=""
+                src="./public/image-17@2x.png"
+              />
+            </div>
+          </div>
+          <div class="content-inner1">
+            <div class="frame-parent74">
+              <div class="tourism-title-content-parent">
+                <div class="tourism-title-content">
+                  <div class="tourism-information-center-wrapper1">
+                    <h3 class="tourism-information-center5">
+                      Tourism Information Center
+                    </h3>
+                  </div>
+                  <img
+                    class="tourism-title-content-child"
+                    alt=""
+                    src="./public/line-1.svg"
+                  />
+                </div>
+                <div class="membutuhkan-informasi-tentang-wrapper1">
+                  <div class="membutuhkan-informasi-tentang-container5">
+                    <p class="membutuhkan-informasi-tentang5">
+                      Membutuhkan Informasi Tentang Pariwisata Jogja?
+                    </p>
+                    <p class="hubungi-tim-tic5">
+                      Hubungi Tim TIC Dinas Pariwisata Daerah Istimewa
+                      Yogyakarta.
+                    </p>
+                    <p class="hpwa-08525">HP/WA : 0852 2571 5858</p>
+                  </div>
+                </div>
+                <div class="dinas-pariwisata-diy-container">
+                  <div class="dinas-pariwisata-diy5">Dinas Pariwisata DIY</div>
+                </div>
+              </div>
+              <div class="putih-kecil-1-parent1">
+                <img
+                  class="putih-kecil-15"
+                  loading="lazy"
+                  alt=""
+                  src="./public/putih-kecil-1@2x.png"
+                />
+
+                <div class="frame-parent75">
+                  <div class="tourism-contact-icon-circles-parent">
+                    <div class="tourism-contact-icon-circles"></div>
+                    <img
+                      class="image-18-icon11"
+                      alt=""
+                      src="./public/image-18-1@2x.png"
+                    />
+                  </div>
+                  <div class="ellipse-parent24">
+                    <div class="frame-child91"></div>
+                    <img
+                      class="image-19-icon5"
+                      alt=""
+                      src="./public/image-19@2x.png"
+                    />
+                  </div>
+                  <div class="ellipse-parent25">
+                    <div class="frame-child92"></div>
+                    <img
+                      class="image-20-icon11"
+                      alt=""
+                      src="./public/image-20-1@2x.png"
+                    />
+                  </div>
+                  <div class="ellipse-parent26">
+                    <div class="frame-child93"></div>
+                    <img
+                      class="image-21-icon11"
+                      alt=""
+                      src="./public/image-21-1@2x.png"
+                    />
+                  </div>
+                  <div class="ellipse-parent27">
+                    <div class="frame-child94"></div>
+                    <img
+                      class="image-22-icon11"
+                      alt=""
+                      src="./public/image-22-1@2x.png"
+                    />
+                  </div>
+                  <div class="ellipse-parent28">
+                    <div class="frame-child95"></div>
+                    <img
+                      class="image-26-icon5"
+                      alt=""
+                      src="./public/image-26@2x.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+  </body>
+</html>
