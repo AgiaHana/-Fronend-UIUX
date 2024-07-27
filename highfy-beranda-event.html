@@ -14,48 +14,64 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
     />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"  rel="stylesheet" />
   </head>
   <body>
+     <!-- Navbar -->
+<nav class="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="./public/logo-kecil-1@2x.png" class="h-8" alt="" />
+    </a>
+    <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+        <li>
+          <a href="highfy-beranda-view.html" class="block py-2 px-3 text-white bg-red-700 rounded" aria-current="page">Beranda</a>
+        </li>
+        <li>
+          <a href="highfy-beranda-event.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">Event</a>
+        </li>
+        <li>
+          <a href="highfy-beranda-destinasi.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">Destinasi</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">Kuliner</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">Akomodasi</a>
+        </li>
+        <li>
+          <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-red-700 md:border-0 md:hover:text-white">
+            <img src="./public/pajamasearth.svg" class="h-[24px] w-[24px] px-[4px]" alt="">
+            Indonesia <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+          </svg></button>
+          <!-- Dropdown menu -->
+          <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+              <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">English</a>
+                </li>
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">China</a>
+                </li>
+              </ul>
+          </div>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+
     <div class="highfy-beranda-event1">
       <main class="frame-main">
         <section class="frame-parent15">
-          <header class="frame-header">
-            <div class="logo-kecil-1-frame">
-              <img
-                class="logo-kecil-13"
-                loading="lazy"
-                alt=""
-                src="./public/logo-kecil-1@2x.png"
-              />
-            </div>
-            <div class="button-navbar-group">
-              <div class="button-navbar15">
-                <a class="beranda3">Beranda</a>
-              </div>
-              <div class="button-navbar16">
-                <a class="event3">Event</a>
-              </div>
-              <div class="button-navbar17">
-                <a class="destinasi3">Destinasi</a>
-              </div>
-              <div class="button-navbar18">
-                <a class="kuliner3">Kuliner</a>
-              </div>
-              <div class="button-navbar19">
-                <a class="akomodasi3">Akomodasi</a>
-              </div>
-              <div class="pajamasearth-parent1">
-                <img
-                  class="pajamasearth-icon3"
-                  alt=""
-                  src="./public/pajamasearth.svg"
-                />
-
-                <a class="indonesia3">Indonesia</a>
-                <img class="frame-child27" alt="" src="./public/group-4.svg" />
-              </div>
-            </div>
-          </header>
           <div class="rectangle-parent6">
             <img
               class="frame-child28"
@@ -98,7 +114,8 @@
               <h2 class="daftar-event">DAFTAR EVENT</h2>
             </div>
             <div class="event-cards">
-              <div class="event-card-rows">
+              <div style="display: flex;">
+              <div class="event-card-rows mr-[16px]">
                 <div class="rectangle-parent7">
                   <div class="frame-child30"></div>
                   <div class="event-card-items">
@@ -125,7 +142,7 @@
                       <div class="event-card-names">
                         <div class="geopark-night-specta-60-container">
                           <b class="geopark-night-specta2"
-                            >Geopark Night Specta 6.0</b
+                            ><a href="highfy-beranda-detail-event.html">Geopark Night Specta 6.0</a></b
                           >
                         </div>
                         <div class="event-card-descriptions">
@@ -141,7 +158,8 @@
                   </div>
                 </div>
               </div>
-              <div class="event-card-rows1">
+
+              <div class="event-card-rows1 mr-[16px]">
                 <div class="rectangle-parent8">
                   <div class="frame-child31"></div>
                   <div class="rectangle-parent9">
@@ -168,7 +186,7 @@
                       <div class="frame-parent19">
                         <div class="mandiri-jogja-marathon-2024-wrapper">
                           <b class="mandiri-jogja-marathon"
-                            >Mandiri Jogja Marathon 2024</b
+                            ><a href="highfy-beranda-detail-event.html">Mandiri Jogja Marathon 2024</a></b
                           >
                         </div>
                         <div class="sobat-visiting-jogja-mandiri-wrapper">
@@ -211,7 +229,7 @@
                       <div class="frame-parent22">
                         <div class="festival-balon-udara-obelix-vi-wrapper">
                           <b class="festival-balon-udara"
-                            >Festival Balon Udara Obelix Village 2024</b
+                            ><a href="highfy-beranda-detail-event.html">Festival Balon Udara Obelix Village 2024</a></b
                           >
                         </div>
                         <div class="sobat-visiting-jogja-obelix-v-wrapper">
@@ -225,8 +243,11 @@
                     </div>
                   </div>
                 </div>
+                </div>
               </div>
-              <div class="event-card-rows3">
+
+              <div style="display: flex;">
+              <div class="event-card-rows3 mr-[16px]">
                 <div class="rectangle-parent12">
                   <div class="frame-child35"></div>
                   <div class="rectangle-parent13">
@@ -253,7 +274,7 @@
                       <div class="frame-parent25">
                         <div class="artjog-2024-motif-ramalan-wrapper">
                           <b class="artjog-2024"
-                            >ARTJOG 2024 – Motif: Ramalan</b
+                            ><a href="highfy-beranda-detail-event.html">ARTJOG 2024 – Motif: Ramalan</a></b
                           >
                         </div>
                         <div class="sobat-visiting-jogja-apa-yang-wrapper">
@@ -268,7 +289,7 @@
                   </div>
                 </div>
               </div>
-              <div class="event-card-rows4">
+              <div class="event-card-rows4 mr-[16px]">
                 <div class="rectangle-parent14">
                   <div class="frame-child37"></div>
                   <div class="rectangle-parent15">
@@ -295,7 +316,7 @@
                       <div class="frame-parent28">
                         <div class="prambanan-jazz-10-2024-wrapper">
                           <b class="prambanan-jazz-10"
-                            >Prambanan Jazz #10 2024</b
+                            ><a href="highfy-beranda-detail-event.html">Prambanan Jazz #10 2024</a></b
                           >
                         </div>
                         <div class="sobat-visiting-jogja-mari-ber-wrapper">
@@ -310,7 +331,9 @@
                   </div>
                 </div>
               </div>
-              <div class="event-card-rows5">
+
+              <div style="display: flex;"></div>
+              <div class="event-card-rows5 mr-[16px]">
                 <div class="rectangle-parent16">
                   <div class="frame-child39"></div>
                   <div class="rectangle-parent17">
@@ -337,7 +360,7 @@
                       <div class="frame-parent31">
                         <div class="keroncong-plesiran-vol-8-wrapper">
                           <b class="keroncong-plesiran-vol"
-                            >Keroncong Plesiran Vol. 8</b
+                            ><a href="highfy-beranda-detail-event.html">Keroncong Plesiran Vol. 8</a></b
                           >
                         </div>
                         <div class="sobat-visiting-jogja-pertunju-wrapper">
@@ -353,7 +376,10 @@
                   </div>
                 </div>
               </div>
-              <div class="event-card-rows6">
+              </div>
+
+              <div style="display: flex;">
+              <div class="event-card-rows6 mr-[16px]">
                 <div class="rectangle-parent18">
                   <div class="frame-child41"></div>
                   <div class="rectangle-parent19">
@@ -379,7 +405,7 @@
                       </div>
                       <div class="frame-parent34">
                         <div class="tour-de-merapi-2024-wrapper">
-                          <b class="tour-de-merapi">Tour de Merapi 2024</b>
+                          <b class="tour-de-merapi"><a href="highfy-beranda-detail-event.html">Tour de Merapi 2024</a></b>
                         </div>
                         <div class="dinas-pariwisata-kabupaten-sle-wrapper">
                           <div class="dinas-pariwisata-kabupaten">
@@ -393,7 +419,8 @@
                   </div>
                 </div>
               </div>
-              <div class="event-card-rows7">
+ 
+              <div class="event-card-rows7 mr-[16px]">
                 <div class="rectangle-parent20">
                   <div class="frame-child43"></div>
                   <div class="rectangle-parent21">
@@ -419,7 +446,7 @@
                       </div>
                       <div class="frame-parent37">
                         <div class="pasar-swandanan-wrapper">
-                          <b class="pasar-swandanan">PAsar Séwandanan</b>
+                          <b class="pasar-swandanan"><a href="highfy-beranda-detail-event.html">Pasar Séwandanan</a></b>
                         </div>
                         <div class="puncak-acara-hadeging-kadipate-wrapper">
                           <div class="puncak-acara-hadeging">
@@ -461,7 +488,7 @@
                       <div class="frame-parent40">
                         <div class="pasar-malam-kampung-wisata-wrapper">
                           <b class="pasar-malam-kampung"
-                            >Pasar Malam Kampung Wisata</b
+                            ><a href="highfy-beranda-detail-event.html">Pasar Malam Kampung Wisata</a></b
                           >
                         </div>
                         <div class="sobat-visiting-jogja-kini-had-wrapper">
@@ -481,6 +508,7 @@
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </section>
       </main>
@@ -558,7 +586,7 @@
             </div>
             <div class="information-content-wrapper">
               <div class="information-content">
-                <div class="frame-parent41">
+                <div class="frame-parent41 mx-[80px]">
                   <div class="information-title-parent">
                     <div class="information-title">
                       <h3 class="tourism-information-center3">
@@ -655,5 +683,6 @@
         </div>
       </footer>
     </div>
+    <script src="https://cdn.tailwindcss.com"></script>
   </body>
 </html>
